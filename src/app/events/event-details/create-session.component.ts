@@ -12,7 +12,7 @@ import { ISession } from "../shared/index";
     .error ::-webkit-input-placeholder { color: #999; }
     .error ::-moz-placeholder { color: #999; }
     .error :-moz-placeholder { color: #999; }
-    .error :ms-input-placeholder { color: #999; }
+    .error :-ms-input-placeholder { color: #999; }
   `]
 })
 export class CreateSessionComponent implements OnInit{
